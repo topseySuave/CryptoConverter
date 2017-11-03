@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Crypto Converter</string>
+    <string name="convert_name">Convert</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_select_country">select country</string>
+</resources>
