@@ -40,10 +40,10 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
         MenuViewHolder(View itemView)
         {
             super(itemView);
-            cv = (LinearLayout)itemView.findViewById(R.id.layout_card);
-            countryName = (TextView)itemView.findViewById(R.id.country_name);
-            countryCode = (TextView)itemView.findViewById(R.id.country_code);
-            thumbnail = (ImageView)itemView.findViewById(R.id.country_image);
+            cv = (LinearLayout) itemView.findViewById(R.id.layout_card);
+            countryName = (TextView) itemView.findViewById(R.id.country_name);
+            countryCode = (TextView) itemView.findViewById(R.id.country_code);
+            thumbnail = (ImageView) itemView.findViewById(R.id.country_image);
         }
 
     }
@@ -90,7 +90,7 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
         {
             case TYPE_NORMAL:
             {
-                holder.countryName.setText(contents.get(position).country_name);
+                holder.countryName.setText(contents.get(position).country_n);
                 holder.thumbnail.setImageResource(contents.get(position).image);
                 holder.countryCode.setText(contents.get(position).codeName);
 //                Picasso.with(context)
