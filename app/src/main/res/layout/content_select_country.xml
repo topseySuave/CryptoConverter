@@ -23,7 +23,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_1"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -36,7 +36,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -46,6 +46,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -65,7 +66,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_2"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -78,7 +79,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
@@ -88,6 +89,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -107,7 +109,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_3"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -120,7 +122,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
@@ -130,6 +132,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -149,7 +152,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_4"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -162,7 +165,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -172,6 +175,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -191,7 +195,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_5"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -204,7 +208,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -214,6 +218,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -233,7 +238,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_6"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -246,7 +251,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
@@ -256,6 +261,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -275,7 +281,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_7"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -288,7 +294,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -298,6 +304,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -317,7 +324,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_8"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -330,7 +337,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -340,6 +347,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -359,7 +367,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_9"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -372,7 +380,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -382,6 +390,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -401,7 +410,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_10"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -414,7 +423,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_10"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -424,6 +433,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_10"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -443,7 +453,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_11"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -456,7 +466,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_11"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -466,6 +476,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_11"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -485,7 +496,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_12"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -498,7 +509,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_12"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -508,6 +519,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_12"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -527,7 +539,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_13"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -540,7 +552,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_13"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -550,6 +562,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_13"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -569,7 +582,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_14"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -582,7 +595,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_14"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
@@ -592,6 +605,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_14"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -611,7 +625,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_15"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -624,7 +638,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_15"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -634,6 +648,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_15"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -654,7 +669,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_16"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -667,7 +682,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_16"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
@@ -677,6 +692,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_16"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -697,7 +713,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_17"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -710,7 +726,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_17"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -720,6 +736,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_17"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -740,7 +757,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_18"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -753,7 +770,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_18"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -763,6 +780,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_18"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -783,7 +801,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_19"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -796,7 +814,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_19"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -806,6 +824,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_19"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -825,7 +844,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/c_img_20"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_weight="1"
@@ -838,7 +857,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/c_name_20"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -848,6 +867,7 @@
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/c_code_20"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
