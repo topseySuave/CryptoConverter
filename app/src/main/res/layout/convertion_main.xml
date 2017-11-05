@@ -28,21 +28,21 @@
                     android:paddingTop="10dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/currency_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="currency" />
+                        android:text="NGN" />
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/btc_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="BTC" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/eth_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -56,31 +56,31 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/country_thumb"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         app:srcCompat="@drawable/ngn" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/btc_convert"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:layout_marginBottom="15dp"
                         android:layout_marginLeft="45dp"
                         android:layout_marginTop="15dp"
-                        android:text="2345596.35"
+                        android:text="000.00"
                         android:textAlignment="center"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/eth_convert"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:layout_marginLeft="45dp"
                         android:layout_marginTop="15dp"
-                        android:text="2345596.35"
+                        android:text="000.00"
                         android:textAlignment="center"
                         android:textSize="12sp" />
 
@@ -91,6 +91,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
+                        android:id="@+id/convert_input"
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:hint="Input Amount"
@@ -103,6 +104,7 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onClick"
                     android:text="Convert" />
 
             </LinearLayout>

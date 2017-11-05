@@ -75,49 +75,50 @@ public class MainActivity2 extends AppCompatActivity {
             DevRecyclerViewAdapter mAdapter = new DevRecyclerViewAdapter(this, content);
             mRecyclerView.setAdapter(mAdapter);
         }
+
     }
 
     public int getImageName(String code)
     {
-        if(code == "EUR"){
+        if(code.equals("EUR")){
             return R.drawable.eur;
-        }else if(code == "NZD"){
+        }else if(code.equals("NZD")){
             return R.drawable.new_zealand;
-        }else if(code == "ZWD"){
+        }else if(code.equals("ZWD")){
             return R.drawable.zwd;
-        }else if(code == "GBP"){
+        }else if(code.equals("GBP")){
             return R.drawable.uk;
-        }else if(code == "SEK"){
+        }else if(code.equals("SEK")){
             return R.drawable.sweden;
-        }else if(code == "ZAR"){
+        }else if(code.equals("ZAR")){
             return R.drawable.south_africa;
-        }else if(code == "RUB"){
+        }else if(code.equals("RUB")){
             return R.drawable.russia;
-        }else if(code == "PLN"){
+        }else if(code.equals("PLN")){
             return R.drawable.poland;
-        }else if(code == "MXN"){
+        }else if(code.equals("MXN")){
             return R.drawable.mxn;
-        }else if(code == "KRW"){
+        }else if(code.equals("KRW")){
             return R.drawable.krw;
-        }else if(code == "CZK"){
+        }else if(code.equals("CZK")){
             return R.drawable.czech;
-        }else if(code == "CNY"){
+        }else if(code.equals("CNY")){
             return R.drawable.china;
-        }else if(code == "NGN"){
+        }else if(code.equals("NGN")){
             return R.drawable.ngn;
-        }else if(code == "USD"){
+        }else if(code.equals("USD")){
             return R.drawable.usa;
-        }else if(code == "INR"){
+        }else if(code.equals("INR")){
             return R.drawable.india;
-        }else if(code == "HKD"){
+        }else if(code.equals("HKD")){
             return R.drawable.hong_kong;
-        }else if(code == "AUD"){
+        }else if(code.equals("AUD")){
             return R.drawable.aud;
-        }else if(code == "BRL"){
+        }else if(code.equals("BRL")){
             return R.drawable.brazil;
-        }else if(code == "CAD"){
+        }else if(code.equals("CAD")){
             return R.drawable.canada;
-        }else if(code == "JPY"){
+        }else if(code.equals("JPY")){
             return R.drawable.japan;
         }
         return 0;
@@ -127,46 +128,45 @@ public class MainActivity2 extends AppCompatActivity {
     {
         if(code == "EUR"){
             return "Euro";
-        }else if(code == "NZD"){
+        }else if(code.equals("NZD")){
             return "New Zealand Dollar";
-        }else if(code == "ZWD"){
+        }else if(code.equals("ZWD")){
             return "Zimbabwean Dollar";
-        }else if(code == "GBP"){
+        }else if(code.equals("GBP")){
             return "British Pounds";
-        }else if(code == "SEK"){
+        }else if(code.equals("SEK")){
             return "Swedish Krona";
-        }else if(code == "ZAR"){
+        }else if(code.equals("ZAR")){
             return "South African Rand";
-        }else if(code == "RUB"){
+        }else if(code.equals("RUB")){
             return "Russian Rouble";
-        }else if(code == "PLN"){
+        }else if(code.equals("PLN")){
             return "Polish Zloty";
-        }else if(code == "MXN"){
+        }else if(code.equals("MXN")){
             return "Mexican Peso";
-        }else if(code == "KRW"){
+        }else if(code.equals("KRW")){
             return "Korean won";
-        }else if(code == "CZK"){
+        }else if(code.equals("CZK")){
             return "Czech Koruna";
-        }else if(code == "CNY"){
+        }else if(code.equals("CNY")){
             return "Chinese Yuan";
-        }else if(code == "NGN"){
+        }else if(code.equals("NGN")){
             return "Nigerian Naira";
-        }else if(code == "USD"){
+        }else if(code.equals("USD")){
             return "United states Dollars";
-        }else if(code == "INR"){
+        }else if(code.equals("INR")){
             return "Indian Rupees";
-        }else if(code == "HKD"){
+        }else if(code.equals("HKD")){
             return "Hong Kong Dollars";
-        }else if(code == "AUD"){
+        }else if(code.equals("AUD")){
             return "Australian Dollars";
-        }else if(code == "BRL"){
+        }else if(code.equals("BRL")){
             return "Brazilian Real";
-        }else if(code == "CAD"){
+        }else if(code.equals("CAD")){
             return "Canadian Dollars";
-        }else if(code == "JPY"){
+        }else if(code.equals("JPY")){
             return "Japanese Yen";
         }
-
         return null;
     }
 }

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gabrieltopsey.cryptoconvert">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".MainActivity2"
             android:label="@string/app_name"
@@ -19,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ConvertionActivity"
             android:label="@string/convert_name"
@@ -28,10 +33,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.gabrieltopsey.cryptoconvert.MainActivity2" />
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".selectCountry"
             android:label="@string/title_activity_select_country"
@@ -41,6 +48,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.gabrieltopsey.cryptoconvert.MainActivity2" />
         </activity>
+
     </application>
 
 </manifest>

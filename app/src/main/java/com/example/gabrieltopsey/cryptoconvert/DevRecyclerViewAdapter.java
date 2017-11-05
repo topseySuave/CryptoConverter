@@ -3,6 +3,7 @@ package com.example.gabrieltopsey.cryptoconvert;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -92,6 +93,7 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
             {
                 holder.countryName.setText(contents.get(position).country_n);
                 holder.thumbnail.setImageResource(contents.get(position).image);
+                Log.d("Testing",""+contents.get(position).image);
                 holder.countryCode.setText(contents.get(position).codeName);
 //                Picasso.with(context)
 //                        .load(contents.get(position).image)
@@ -111,6 +113,7 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
                             {
                                 Intent i = new Intent(context, ConvertionActivity.class);
                                 i.putExtra("code",contents.get(position).codeName);
+                                i.putExtra("image",contents.get(position).image);
                                 context.startActivity(i);
 
 

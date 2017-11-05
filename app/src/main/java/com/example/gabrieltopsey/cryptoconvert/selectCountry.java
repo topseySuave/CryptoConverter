@@ -140,7 +140,8 @@ public class selectCountry extends AppCompatActivity {
 
         if(!restoredText.equals("")) {
             String[] currencyList = restoredText.split(",");
-            list = Arrays.asList(currencyList);
+            //list = Arrays.asList(currencyList);
+            list = new ArrayList<>(Arrays.asList(currencyList));
 
             Log.d("testing", list.toString());
             list.add(id);
