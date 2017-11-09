@@ -55,7 +55,7 @@ public class MainActivity2 extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         String restoredText = prefs.getString("currencyList", "");
 
-        if(restoredText != ""){
+        if(!restoredText.equals("")){
             String[] currencyList = restoredText.split(",");
             List<String> list = Arrays.asList(currencyList);
 
@@ -126,7 +126,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     public String getCountryName(String code)
     {
-        if(code == "EUR"){
+        if(code.equals("EUR")){
             return "Euro";
         }else if(code.equals("NZD")){
             return "New Zealand Dollar";

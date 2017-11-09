@@ -9,10 +9,9 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".MainActivity2"
             android:label="@string/app_name"
@@ -23,22 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ConvertionActivity"
-            android:label="@string/convert_name"
+            android:label="@string/app_name"
             android:parentActivityName=".MainActivity2"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.gabrieltopsey.cryptoconvert.MainActivity2" />
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".selectCountry"
             android:label="@string/title_activity_select_country"
@@ -48,7 +44,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.gabrieltopsey.cryptoconvert.MainActivity2" />
         </activity>
-
+        <activity
+            android:name=".ConvertionActivity2"
+            android:label="@string/title_activity_convertion2"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gabrieltopsey.cryptoconvert.MainActivity2" />
+        </activity>
     </application>
 
 </manifest>

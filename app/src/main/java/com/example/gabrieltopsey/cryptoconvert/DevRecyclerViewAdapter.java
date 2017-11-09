@@ -85,7 +85,7 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
 
 
     @Override
-    public void onBindViewHolder(final MenuViewHolder holder,final int position)
+    public void onBindViewHolder(final MenuViewHolder holder, final int position)
     {
         switch (getItemViewType(position))
         {
@@ -93,7 +93,7 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
             {
                 holder.countryName.setText(contents.get(position).country_n);
                 holder.thumbnail.setImageResource(contents.get(position).image);
-                Log.d("Testing",""+contents.get(position).image);
+                Log.d("Testing", "" + contents.get(position).image);
                 holder.countryCode.setText(contents.get(position).codeName);
 //                Picasso.with(context)
 //                        .load(contents.get(position).image)
@@ -111,9 +111,9 @@ public class DevRecyclerViewAdapter extends RecyclerView.Adapter<DevRecyclerView
                             @Override
                             public void onClick(View view)
                             {
-                                Intent i = new Intent(context, ConvertionActivity.class);
-                                i.putExtra("code",contents.get(position).codeName);
-                                i.putExtra("image",contents.get(position).image);
+                                Intent i = new Intent(context, ConvertionActivity2.class);
+                                i.putExtra("code", contents.get(position).codeName);
+                                i.putExtra("image", contents.get(position).image);
                                 context.startActivity(i);
 
 

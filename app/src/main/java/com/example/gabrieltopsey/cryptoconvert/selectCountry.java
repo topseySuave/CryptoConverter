@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,11 +36,6 @@ public class selectCountry extends AppCompatActivity {
 //            }
 //        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
-
-    public void snack(View view, String snackText)
-    {
-        Snackbar.make(view, snackText, Snackbar.LENGTH_LONG).setAction("Action", null).show();
     }
 
     public void onClick(View view)
@@ -127,7 +123,8 @@ public class selectCountry extends AppCompatActivity {
                 addCurrency("JPY");
                 break;
         }
-        snack(view, "Currency Added Successfully!!!");
+
+        Toast.makeText(selectCountry.this, "Currency Added Successfully!!!", Toast.LENGTH_SHORT).show();
         super.onBackPressed();
     }
 
@@ -140,13 +137,15 @@ public class selectCountry extends AppCompatActivity {
 
         if(!restoredText.equals("")) {
             String[] currencyList = restoredText.split(",");
-            //list = Arrays.asList(currencyList);
             list = new ArrayList<>(Arrays.asList(currencyList));
 
             Log.d("testing", list.toString());
-            list.add(id);
+            if (!list.contains(id)) {
+                list.add(id);
+            }else{
+                Toast.makeText(selectCountry.this, "Currency Already Added!!!", Toast.LENGTH_SHORT).show();
+            }
         }else{
-
             list.add(id);
         }
 
@@ -159,7 +158,15 @@ public class selectCountry extends AppCompatActivity {
         SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
         editor.putString("currencyList", sb.toString());
         editor.apply();
-
     }
+
+//    public boolean contains(ArrayList<List> list, String name) {
+//        for (List item : list) {
+//            if (item.toString().equals(name)) {
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 
 }
