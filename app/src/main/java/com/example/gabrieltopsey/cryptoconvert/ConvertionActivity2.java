@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -77,7 +78,7 @@ public class ConvertionActivity2 extends AppCompatActivity {
         float newBTC, newETH;
         String inputToConvert = convertInput.getText().toString();
 
-        if(!inputToConvert.equals(" ")){
+        if(!inputToConvert.equals("")){
             float convertValue = Float.parseFloat(inputToConvert);
 
             newBTC = convertValue * btc;
@@ -88,6 +89,8 @@ public class ConvertionActivity2 extends AppCompatActivity {
 
             btcConvert.setText(strBtc);
             ethConvert.setText(strEth);
+        }else{
+            Toast.makeText(ConvertionActivity2.this, "Please Input Any Amount!!!", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -121,6 +124,7 @@ public class ConvertionActivity2 extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
                 // TODO Auto-generated method stub
                 getSavedValues();
+                Toast.makeText(ConvertionActivity2.this, "Error in connection!!!", Toast.LENGTH_SHORT).show();
             }
         });
 

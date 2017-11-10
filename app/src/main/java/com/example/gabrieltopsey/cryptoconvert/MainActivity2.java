@@ -31,8 +31,6 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -41,8 +39,6 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent add = new Intent(getBaseContext(), selectCountry.class);
                 add.putExtra("ADD_NEW", true);
                 startActivity(add);
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
             }
         });
     }
@@ -75,7 +71,6 @@ public class MainActivity2 extends AppCompatActivity {
             DevRecyclerViewAdapter mAdapter = new DevRecyclerViewAdapter(this, content);
             mRecyclerView.setAdapter(mAdapter);
         }
-
     }
 
     public int getImageName(String code)
